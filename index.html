@@ -2,13 +2,27 @@
 
 <head>
     <title>行摩</title>
-    <link rel = "stylesheet" href = "../css/mypage.css">
+    <link rel = "stylesheet" href = "css/mypage.css">
 </head>
 <body>
 <div class = "top">
+    <div id = "introduce">下山修行的行摩</div>
+</div>
+<div class = "left">
+    <div id = "classify" class="al_ju_cc">
+        <ul>
+            <li>note</li>
+            <li>practice</li>
+            <li id = "privatetoother">essay</li>
+            <div id = "userApwd">
+                <input type = "text" placeholder = "userName" id = "userName">
+                <input type = "password" placeholder = "passWord" id = "passWord">
+                <input type = "submit" values = "log in" id = "submit">
+            </div>
+        </ul>
+    </div>
 
 </div>
-<div class = "left"></div>
 <input type="text" id="clock_block"/>
 can you see me?
 <img src="\img\-large.jpg" style = "width: 300px;height: 210px">
@@ -35,5 +49,6 @@ function clock(){
 }
 timer = setInterval("clock()",1000);
 </script>
+<script type = "text/javascript" src = "\js\mypage.js"></script>
 </body>
 </html>
