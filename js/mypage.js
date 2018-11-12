@@ -9,7 +9,7 @@ var count = 0;
 essay.onclick = function(){
     console.log("push");
     userpwd.style.display = "block";
-    count++;
+   /* count++;*/
     /*submit1.onclick = privateLogIn();*/
 }
 function privateLogIn(){
