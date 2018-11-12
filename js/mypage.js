@@ -9,8 +9,7 @@ var count = 0;
 essay.onclick = function(){
     console.log("push");
     userpwd.style.display = "block";
-   /* count++;*/
-    /*submit1.onclick = privateLogIn();*/
+
 }
 function privateLogIn(){
     if(count<=3&&username === "14102026" &&password === "stykiss1229"){
