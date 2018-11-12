@@ -1,3 +1,26 @@
 Hello Word!
-<input type="text"/>
+<input type="text" id="clocj_block"/>
 can you see me?
+
+
+var timer;
+function clock(){
+	var date1 = new Date();
+	var hour = date1.getHours();
+	var min = date1.getMinutes();
+	var sec = date1.getSeconds();
+	
+	if(sec<10){
+		
+		if(min<10){
+			sec = "0"+sec;
+			min = "0"+min;
+			document.getElementById("clock_block").value = hour+"时"+min+"分"+sec+"秒";
+		}else{
+			sec = "0"+sec;
+			document.getElementById("clock_block").value = hour+"时"+min+"分"+sec+"秒";
+		}
+	}else
+		document.getElementById("clock_block").value = hour+"时"+min+"分"+sec+"秒";
+}
+timer = setInterval("clock()",1000);
