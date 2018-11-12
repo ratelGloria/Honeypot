@@ -1,0 +1,14 @@
+{
+    padding:0px;
+    margin: 0px;
+}
+.top{
+    width: 100%;
+    height:200px;
+    background-color: greenyellow;
+}
+.left{
+    width: 150px;
+    height: 100%;
+    background-color: aqua;
+}
