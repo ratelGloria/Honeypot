@@ -1,7 +1,8 @@
-{
+*{
     padding:0px;
     margin: 0px;
 }
+
 .al_ju_cc{
     display:flex;
     justify-content:center;
@@ -10,15 +11,17 @@
 .top{
     width: 100%;
     height:200px;
-    background-color: greenyellow;
+    background-color: #fdffd5;
     display:flex;
     align-items:flex-end;
     justify-content:flex-end;
 }
 .left{
     width: 150px;
-    height: 100%;
-    background-color: aqua;
+    height: 300px;
+    background-color: #fefeff;
+    display: inline-block;
+    vertical-align:top;
 }
 #introduce{
     display:flex;
@@ -33,7 +36,8 @@ ul{
 }
 #classify{
     width:100px;
-    height:100px;
+    height:200px;
+    margin:auto;
 }
 #userApwd{
     width: 300px;
@@ -57,4 +61,55 @@ ul{
 }
 .text1{
     border-radius:4px;
+}
+li{
+    width:90px;
+    height:40px;
+    border:1px solid black;
+    background-color:ghostwhite;
+    border-radius:4px;
+}
+a{
+    text-decoration-line:none;
+    color:black;
+}
+li:hover{
+    color:black;
+    background-color: whitesmoke;
+    cursor:pointer;
+}
+.middle{
+    width:100%;
+    white-space:normal;
+    display:flex;
+    border:1px solid black;
+}
+.mid{
+    display:inline-block;
+    vertical-align:top;
+    width:500px;
+    height:400px;
+    border:1px solid black;
+}
+#deathCode_block{
+    width:200px;
+    margin:auto;
+    left:300px;
+    position:absolute;
+    border:1px solid black;
+    margin-top:340px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.deathCode_div{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    border:1px solid black;
+    border-radius:50%;
+
+}
+.marginLeft{
+    margin-left:10px;
 }
