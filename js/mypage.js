@@ -50,7 +50,7 @@ function deathCode(){
     deathImg[count1].style.display = "block";
     for(var  i = 0;i<ds.length;i++){
         if(i != count1){
-            ds[i].style.backgroundColor = "white";
+            ds[i].style.backgroundColor = "rgba(0,0,0,0)";
             deathImg[i].style.display = "none";
         }
     }

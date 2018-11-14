@@ -10,14 +10,14 @@
 }
 .top{
     width: 100%;
-    height:200px;
+    height:150px;
     background-color: #fdffd5;
     display:flex;
     align-items:flex-end;
     justify-content:flex-end;
 }
 .left{
-    width: 150px;
+    width: 240px;
     height: 300px;
     background-color: #fefeff;
     display: inline-block;
@@ -26,7 +26,7 @@
 #introduce{
     display:flex;
     align-items:flex-start;
-    width:200px;
+    width:190px;
     height:30px;
     margin-bottom:10px;
     margin-left: 20px;
@@ -35,7 +35,7 @@ ul{
     list-style:none;
 }
 #classify{
-    width:100px;
+    width:240px;
     height:200px;
     margin:auto;
 }
@@ -83,6 +83,13 @@ li:hover{
     white-space:normal;
     display:flex;
     border:1px solid black;
+    background-color: #f6f6f6;
+}
+.middle_block{
+    width: 86%;
+    border:1px solid black;
+    white-space:nowrap;
+    display: flex;
 }
 .mid{
     display:inline-block;
@@ -93,7 +100,6 @@ li:hover{
 }
 #deathCode_block{
     width:200px;
-    margin:auto;
     left:300px;
     position:absolute;
     border:1px solid black;
@@ -101,6 +107,7 @@ li:hover{
     display:flex;
     justify-content:center;
     align-items:center;
+    opacity:0;
 }
 .deathCode_div{
     display:inline-block;
