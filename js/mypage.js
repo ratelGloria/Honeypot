@@ -7,9 +7,6 @@ window.onload = function() {
     var submit_cancel = document.getElementById("submit_cancel");
 
 
-
-
-
     userpwd.style.position = "absolute";
     userpwd.style.display = "none";
     var count = 0;
@@ -21,8 +18,9 @@ window.onload = function() {
         console.log("我进入了");
         if ("14102026" === username.value && "stykiss1229" === password.value) {
             console.log("我进入了");
-            window.location.href = 'https://ratelgloria.github.io/Honeypot.github.io/pages/privateMessage.html';
-            self.location = "privateMessage.html";
+
+        }else{
+            return false;
         }
     }
 
